@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/18 13:59:45.000.254,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/18 15:26:56.000.272,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/25 15:04:15.000.696,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/11 21:19:58.000.996,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/04/12 08:41:21.000.227,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2019/04/12 08:41:29.000.741,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2019/04/12 08:41:32.000.881,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2019/04/12 09:01:24.000.242,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/04/12 11:21:12.000.733,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2019/04/12 11:21:14.000.601,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2019/04/12 11:21:14.000.708,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2019/04/12 11:21:57.000.279,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2019/04/12 11:21:59.000.289,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2019/04/12 11:22:02.000.685,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2019/04/17 08:18:04.000.391,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/07 14:37:06.000.196,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/17 08:48:22.000.696,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2019/05/17 08:48:22.000.987,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2019/05/17 08:48:23.000.201,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2019/06/25 20:32:03.000.127,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/25 21:49:19.000.580,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/25 21:49:34.000.560,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/25 22:34:14.000.922,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/07/01 12:04:34.000.239,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/07/01 12:04:47.000.686,=C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/07/01 12:06:20.000.866,C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\mateus.rocha\Documents\Sistemas\fmx-vicente-styles\src\Views\Views.Main.fmx</Transaction>
+    <Transaction>2019/07/01 12:06:20.000.866,C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mateus.rocha\Documents\Sistemas\fmx-vicente-styles\src\Views\Views.Main.pas</Transaction>
+    <Transaction>2019/07/01 12:06:33.000.689,C:\Users\mateus.rocha\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mateus.rocha\Documents\Sistemas\fmx-vicente-styles\src\VicenteStylesSample.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMacBookAir iOSSimulator="iPhone5"/>
+		<NoProfile Android="52006ed0c08b85ef"/>
+	</ActiveMobileDevice>
+</BorlandProject>

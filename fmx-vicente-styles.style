@@ -1,0 +1,903 @@
+object TStyleContainer
+  object TLayout
+    StyleName = 'greenbutton'
+    Align = Center
+    Size.Width = 150.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 0
+    object TRectangle
+      StyleName = 'background'
+      Align = Contents
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = xFF005E5E
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFF018080
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StartPosition.Y = 1.000000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Fill.Gradient.StopPosition.Y = 0.000000000000000000
+      HitTest = False
+      Size.Width = 150.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 5.000000000000000000
+      YRadius = 5.000000000000000000
+      object TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 150.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Thickness = 1.200000047683716000
+        Stroke.Dash = Dash
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 0.300000011920929000
+          Trigger = 'IsMouseOver=true'
+        end
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.300000011920929000
+          StopValue = 0.000000000000000000
+          Trigger = 'IsMouseOver=false'
+        end
+      end
+      object TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 150.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Thickness = 1.200000047683716000
+        Stroke.Dash = Dash
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.300000011920929000
+          StopValue = 0.000000000000000000
+          Trigger = 'IsPressed=false'
+        end
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 0.300000011920929000
+          Trigger = 'IsPressed=true'
+        end
+      end
+    end
+    object TText
+      StyleName = 'text'
+      Align = Client
+      HitTest = False
+      Size.Width = 150.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+    end
+  end
+  object TLayout
+    StyleName = 'transparentedit'
+    Align = Center
+    Visible = False
+    TabOrder = 1
+    FixedHeight = 32
+    object TActiveStyleObject
+      StyleName = 'background'
+      Align = Contents
+      SourceLookup = 'Android Diamondstyle.png'
+      Visible = False
+      ActiveTrigger = Focused
+      ActiveLink = <
+        item
+          CapInsets.Left = 10.000000000000000000
+          CapInsets.Right = 10.000000000000000000
+          SourceRect.Left = 150.000000000000000000
+          SourceRect.Top = 113.000000000000000000
+          SourceRect.Right = 177.000000000000000000
+          SourceRect.Bottom = 145.000000000000000000
+        end
+        item
+          CapInsets.Left = 15.000000000000000000
+          CapInsets.Right = 15.000000000000000000
+          Scale = 1.500000000000000000
+          SourceRect.Left = 219.000000000000000000
+          SourceRect.Top = 166.000000000000000000
+          SourceRect.Right = 260.000000000000000000
+          SourceRect.Bottom = 214.000000000000000000
+        end
+        item
+          CapInsets.Left = 20.000000000000000000
+          CapInsets.Right = 20.000000000000000000
+          Scale = 2.000000000000000000
+          SourceRect.Left = 291.000000000000000000
+          SourceRect.Top = 222.000000000000000000
+          SourceRect.Right = 345.000000000000000000
+          SourceRect.Bottom = 286.000000000000000000
+        end
+        item
+          CapInsets.Left = 30.000000000000000000
+          CapInsets.Right = 30.000000000000000000
+          Scale = 3.000000000000000000
+          SourceRect.Left = 445.000000000000000000
+          SourceRect.Top = 340.000000000000000000
+          SourceRect.Right = 526.000000000000000000
+          SourceRect.Bottom = 436.000000000000000000
+        end>
+      SourceLink = <
+        item
+          CapInsets.Left = 10.000000000000000000
+          CapInsets.Right = 10.000000000000000000
+          SourceRect.Left = 150.000000000000000000
+          SourceRect.Top = 113.000000000000000000
+          SourceRect.Right = 177.000000000000000000
+          SourceRect.Bottom = 145.000000000000000000
+        end
+        item
+          CapInsets.Left = 15.000000000000000000
+          CapInsets.Right = 15.000000000000000000
+          Scale = 1.500000000000000000
+          SourceRect.Left = 219.000000000000000000
+          SourceRect.Top = 166.000000000000000000
+          SourceRect.Right = 260.000000000000000000
+          SourceRect.Bottom = 214.000000000000000000
+        end
+        item
+          CapInsets.Left = 20.000000000000000000
+          CapInsets.Right = 20.000000000000000000
+          Scale = 2.000000000000000000
+          SourceRect.Left = 291.000000000000000000
+          SourceRect.Top = 222.000000000000000000
+          SourceRect.Right = 345.000000000000000000
+          SourceRect.Bottom = 286.000000000000000000
+        end
+        item
+          CapInsets.Left = 30.000000000000000000
+          CapInsets.Right = 30.000000000000000000
+          Scale = 3.000000000000000000
+          SourceRect.Left = 445.000000000000000000
+          SourceRect.Top = 340.000000000000000000
+          SourceRect.Right = 526.000000000000000000
+          SourceRect.Bottom = 436.000000000000000000
+        end>
+      TouchAnimation.Link = <>
+    end
+    object TLayout
+      StyleName = 'content'
+      Align = Client
+      Locked = True
+      Margins.Left = 4.000000000000000000
+      Margins.Top = 2.000000000000000000
+      Margins.Right = 4.000000000000000000
+      Margins.Bottom = 2.000000000000000000
+      Size.Height = 46.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object TLayout
+      StyleName = 'buttons'
+      Align = Right
+      Locked = True
+      Margins.Top = 2.000000000000000000
+      Margins.Right = 2.000000000000000000
+      Margins.Bottom = 2.000000000000000000
+      Position.X = -2.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 46.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object TColorObject
+      StyleName = 'caretcolor'
+      Color = xFFACACAC
+    end
+    object TBrushObject
+      StyleName = 'foreground'
+      Brush.Color = claBlack
+    end
+    object TBrushObject
+      StyleName = 'selection'
+      Brush.Color = x7F9CBEDC
+    end
+    object TFontObject
+      StyleName = 'font'
+      Font.Size = 18.000000000000000000
+    end
+    object TSelectionPoint
+      StyleName = 'leftselectionpoint'
+      GripSize = 3.000000000000000000
+      GripCenter.X = 14.000000000000000000
+      GripCenter.Y = -22.000000000000000000
+      Size.Width = 26.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'leftselectionpointstyle'
+      TouchTargetExpansion.Left = 28.000000000000000000
+      TouchTargetExpansion.Right = -28.000000000000000000
+    end
+    object TSelectionPoint
+      StyleName = 'rightselectionpoint'
+      GripSize = 3.000000000000000000
+      GripCenter.Y = -44.000000000000000000
+      Size.Width = 26.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'rightselectionpointstyle'
+    end
+    object TLabel
+      StyleName = 'prompt'
+      Locked = True
+      Opacity = 0.500000000000000000
+      Visible = False
+    end
+  end
+  object TLayout
+    StyleName = 'ligthgreenbutton'
+    Align = Center
+    Size.Width = 150.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 2
+    object TRectangle
+      StyleName = 'background'
+      Align = Contents
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = xFFB4D2D6
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFFB4D2D6
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StartPosition.Y = 1.000000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Fill.Gradient.StopPosition.Y = 0.000000000000000000
+      HitTest = False
+      Size.Width = 150.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 5.000000000000000000
+      YRadius = 5.000000000000000000
+      object TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 150.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Thickness = 1.200000047683716000
+        Stroke.Dash = Dash
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 0.300000011920929000
+          Trigger = 'IsMouseOver=true'
+        end
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.300000011920929000
+          StopValue = 0.000000000000000000
+          Trigger = 'IsMouseOver=false'
+        end
+      end
+      object TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 150.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Thickness = 1.200000047683716000
+        Stroke.Dash = Dash
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.300000011920929000
+          StopValue = 0.000000000000000000
+          Trigger = 'IsPressed=false'
+        end
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 0.300000011920929000
+          Trigger = 'IsPressed=true'
+        end
+      end
+    end
+    object TText
+      StyleName = 'text'
+      Align = Client
+      HitTest = False
+      Size.Width = 150.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = xFF005E5E
+    end
+  end
+  object TLayout
+    StyleName = 'whitebutton'
+    Align = Center
+    Size.Width = 150.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 3
+    object TRectangle
+      StyleName = 'background'
+      Align = Contents
+      Fill.Color = claWhite
+      HitTest = False
+      Size.Width = 150.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 5.000000000000000000
+      YRadius = 5.000000000000000000
+      object TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 150.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Thickness = 1.200000047683716000
+        Stroke.Dash = Dash
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 0.300000011920929000
+          Trigger = 'IsMouseOver=true'
+        end
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.300000011920929000
+          StopValue = 0.000000000000000000
+          Trigger = 'IsMouseOver=false'
+        end
+      end
+      object TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 150.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Thickness = 1.200000047683716000
+        Stroke.Dash = Dash
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.300000011920929000
+          StopValue = 0.000000000000000000
+          Trigger = 'IsPressed=false'
+        end
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 0.300000011920929000
+          Trigger = 'IsPressed=true'
+        end
+      end
+    end
+    object TText
+      StyleName = 'text'
+      Align = Client
+      HitTest = False
+      Size.Width = 150.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object TLayout
+    StyleName = 'bluereadbutton'
+    Align = Center
+    Size.Width = 55.000000000000000000
+    Size.Height = 70.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 5
+    object TRectangle
+      StyleName = 'background'
+      Align = Contents
+      Fill.Color = xFF3F6FA6
+      HitTest = False
+      Size.Width = 55.000000000000000000
+      Size.Height = 70.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 55.000000000000000000
+        Size.Height = 70.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Thickness = 1.200000047683716000
+        Stroke.Dash = Dash
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 0.300000011920929000
+          Trigger = 'IsMouseOver=true'
+        end
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.300000011920929000
+          StopValue = 0.000000000000000000
+          Trigger = 'IsMouseOver=false'
+        end
+      end
+      object TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 55.000000000000000000
+        Size.Height = 70.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Thickness = 1.200000047683716000
+        Stroke.Dash = Dash
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.300000011920929000
+          StopValue = 0.000000000000000000
+          Trigger = 'IsPressed=false'
+        end
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 0.300000011920929000
+          Trigger = 'IsPressed=true'
+        end
+      end
+    end
+    object TText
+      StyleName = 'text'
+      Align = Bottom
+      HitTest = False
+      Position.Y = 45.000000000000000000
+      Size.Width = 55.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = '(Default)'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+    end
+    object TImage
+      StyleName = 'trashicon'
+      MultiResBitmap.Height = 100
+      MultiResBitmap.Width = 100
+      MultiResBitmap = <
+        item
+          Width = 100
+          Height = 100
+          PNG = {
+            89504E470D0A1A0A0000000D494844520000006400000064080600000070E295
+            54000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            051249444154785EED9C3D881D5514C777DF8B895F88063FA38582A081C4748A
+            3641C50F50B010D3C846AB808558EE76D92EB1B3B04969C4666323162A29B609
+            063111B22BC660EC2C626521419BF7F4F767CE5BA2BBEFCD9B993BF3CE7D393F
+            38CCBD67EEBB73CEF9DF7933B36F92852008822008822008828E59B46DAB0C06
+            83B3D6CC9A7EBFFF92355BA31341FE016B66CD2258B3357AB60D9C1082382304
+            714608E28C10C4192188335CDCF60E87C3F3BD5EEF37EBCE04627884189EB5EE
+            8E7471DBDB0912A484B76CE8CC500C4528E3B1A1AD125F59CE08419C11823823
+            047146EB82702D9C1BD1BBC8A5D503702BF92AF69375B347B92827EBB6422B82
+            10F46383C1E04B6EDBBFE2DEFE0973678F72514ECA4D399A3B29490521C83D9C
+            D62BD806C1BF6EEEC6305FE933C214247BD6516ECCB781AD2867732721892004
+            B6486047D9FE4AF70401DF59EC995F2CC713CAD9724FF214DF58108239C4669D
+            53F913827CB8F0DE3C2867E54E73DD6AD188DA8270F0FBF82E3DCDCAF881EEE1
+            C27B537358B5504D541BF355A6B2201C741707FC80ED1556C71296F43A9433AA
+            052CA93656A35DB66B6A2A159383BC826D728A7EC481EF3177F03F541BD548B5
+            52CDCC3D15530982D28FDA6DECD71CEC49730725A856AA996AA71A9A7B22A582
+            A0F03B58EDDB583EFB9D35B3875C2E5BB312AA9D6A8828EF9A6B2CA5B76A4CB2
+            C6A6F23D3C015C6375AC60A7D52DBC6339C2B833D6DE06733DC0FE83D6AD0579
+            6C5298DFADBB0DF62B47E53A89DD8C7B0F3BCE5C7BCD578533E471C4DAF59020
+            D8D4707AFE490197B1DB6C0ACD5146563F5091DB1D7457C9F5EF62CFD494095E
+            FFB6772708F45356C07E56CF87D85FE69E3BC8ED3A79AE6207E88E3DB3EB9044
+            1084D860F37CBFDF3F4AB033FD6DBC4BC8F5AABE8258F92F5A0D1A93E41A4230
+            9F13DCFB0477CD5CFF41E7AA35C751760D39C8FEB7AD5B0B42F88C1837ADBB0D
+            F6975E438861C77AF1D90789F163E67FD35CE3E8EE1AC2F7E975825AA6D9B78F
+            6E518C98C844C1B5BF18D688C6C7B0A15BE0D243F2B2722F4694D2DD3584D571
+            3BEA9F24C08BD8D3E69E5BC8F119EC827256EEE66E4CD28BBA20B843AC84F3AC
+            9A53047C97B9E706E5A4DCC8F15BE56AEE6424174410A83846D097B199DFD2A6
+            42B9603F2B372568EEA4B432E90862DEC7A6F47B3323D6C8E9216BB742AB8204
+            D509419C918B207F60171B9AE6C81F2E6295FE965593995FF81543114AAB74FB
+            B7ACBA702BA93FF1B77AB19C04C7DEA718AC3B535C08C29DCB6BAC9EABD82AB6
+            DBDCADA363D9317F510CE69E296EAE2114444FBBC759A9DF63CF15DEF6D031B0
+            0B34F5DB46B227EDA6B8BBA8539CA758B1E7781AD61B2DF79A3B199AD3E63EC7
+            B11AFDE8D5062EEFB228D422B6C40AFE114BF2129AE6C08E31DFE86D99242FB6
+            A5C6A52023289A7EBA1DBD84B6BFF056C73EBB8E9D62CE3A3FBD76866B416E40
+            2FA15DC24E62B79AAF148DB5CF5CA29BC5CB7CB908A2B3E51636FAAD5EEF3ABD
+            5C78C7A3311A4B73D93E9B05D9083282E23ECED7D837ACFA350A7EBFB9B7904F
+            FB344663CD9D0DD90972037AB21EBDB2D99359FB8AF61543F223674174B6DCCD
+            99A05736CFCAD496CF766749D6828C40841764D6CD9AB910649E08419C118238
+            2304714608E28C10C4192188334210678420CE08419C1182382304714608E28C
+            10C4192188334210678420CE08419C1182382304714608E28C10C41921883342
+            10678420CE08419C11823823047146E9BFB31B0E876FB089FFAB370DFA9F84BE
+            B0761004411004411004411004411064CCC2C2BFBFF5270F31FF277F00000000
+            49454E44AE426082}
+          FileName = 
+            'C:\Users\mateus.rocha\Downloads\icons8-17449-0-73604-mensagens-d' +
+            'e-texto-com-envelope-aberto-100.png'
+        end>
+      Align = Client
+      HitTest = False
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 45.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object TLayout
+    StyleName = 'reddeletebutton'
+    Align = Center
+    Size.Width = 55.000000000000000000
+    Size.Height = 70.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 6
+    object TRectangle
+      StyleName = 'background'
+      Align = Contents
+      Fill.Color = xFFFD1A0D
+      HitTest = False
+      Size.Width = 55.000000000000000000
+      Size.Height = 70.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 55.000000000000000000
+        Size.Height = 70.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Thickness = 1.200000047683716000
+        Stroke.Dash = Dash
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 0.300000011920929000
+          Trigger = 'IsMouseOver=true'
+        end
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.300000011920929000
+          StopValue = 0.000000000000000000
+          Trigger = 'IsMouseOver=false'
+        end
+      end
+      object TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 55.000000000000000000
+        Size.Height = 70.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Thickness = 1.200000047683716000
+        Stroke.Dash = Dash
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.300000011920929000
+          StopValue = 0.000000000000000000
+          Trigger = 'IsPressed=false'
+        end
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 0.300000011920929000
+          Trigger = 'IsPressed=true'
+        end
+      end
+    end
+    object TText
+      StyleName = 'text'
+      Align = Bottom
+      HitTest = False
+      Position.Y = 45.000000000000000000
+      Size.Width = 55.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = '(Default)'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+    end
+    object TImage
+      StyleName = 'trashicon'
+      MultiResBitmap.Height = 100
+      MultiResBitmap.Width = 100
+      MultiResBitmap = <
+        item
+          Width = 100
+          Height = 100
+          PNG = {
+            89504E470D0A1A0A0000000D494844520000006400000064080600000070E295
+            54000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            061349444154785EED9DCF8B1C4514C777E7E7F6AC5E8222FEC02417F524A220
+            0AFE40883FCE41C48B20E4141144F10F10C4532E8188A2070F1E143D7913D45B
+            D81CBC9A83DE620CC4AC26BB9B9DDF33DDE3A77A5F60B3CEEE4E775775AAAAEB
+            034DD5EBAEE9E9EA6FBD57F56667A7976C25499287E238FE7C3C1E5FEEC2AC00
+            BC7C301A8DAE51FD9EED09798BC0A220C6CBDCB84D753375833813CEFFAEBC55
+            E030B8598F73D37A72FF8CC0F9799BE40D794BAB5896D21A08533FD76AB51362
+            A6F47ABD71BD5EEF899919CEB9B2BABA1A89994228BCDA6C368FF35E23D915D8
+            0BA3F63E466F2C0339857DEF5034A5492E78FD32DB09CE7DDB5CC4B95F952681
+            7970839E977B95329D4E2FC8212DE029E7E4D429BCDFFB72C81A6A52DAC25D52
+            A62C2F2FFF2D552D70BEAB52BDC5DD525A836D82549E208865145A65118323C2
+            C0FD621686B0FE22E7FB4A4C75FE9F58059D16B3309CEF34E7FB504C659FC53E
+            27A60E6E70FD9B52CF456E41E8CC07FD7EFF1396932BB2ABF2B03C8FA328FA1A
+            914F21CC4C766722972088B18A185B8851975D815DE0E9CF21CA9A9899C83587
+            A0FE8462B0630576839728CFB8B96365A748C87A8DED6346C311658F46A3E378
+            8C75997F194C26932B0CD2315B1FCFF882ED533994196D3770381CAEB7DBED7B
+            C5AC140CCA6388F0A79885D0B6EC6D341AEB52AD22DAFAAE4D10DCF59A542B05
+            8B9B9B7887B6F95467625849415AAD96D67E07410AA23B32E80C595AE2A85A36
+            B26AF98B72A130A09231DA5FA61CCBAE03A11DCDD3F66AE95E185DFDBE854E0F
+            297C61DCA484A5F349C2C0C39D4EE7581CC717E5D05C683FA4DD4BB43FCAEB1E
+            5542CAA1B9B012DCA4FD53AA3DE593D81B72A808FE86AC9595955F19713FA83A
+            13E53ADBD9F4C03E4451F4236DCEAB3AAFBBC44AEFCBF4C03E20C4B7B4FF4DD5
+            292F627F931E2880B5210B0AFFED82CEED1DB137A4DC8FA2EDAF4B59047F3DC4
+            51AC15A4AA89A19D821093D5B737B676AC4A61AD872C4DA7D32A862D6B97BDDA
+            571CB6C3B25B7DBABB2DA61682200568B7DBDAE74DAD8240A504313100757B48
+            A5565AD60B0295F210B0DE43822005D12AC86C36AB94202642B4EE9055B56C3D
+            842CCBB05E902EC952EE7FAC710D1756594692258BB15F90AA842D0281FA9371
+            A12F56CF2308929356ABF50F7DCDF585EA83D02E08542264D56A352303CF8420
+            95F01053912084ACFC38E3212164152084AC9CCC663323032F84ACFC040FB109
+            672675D82469F2FEF7434C7DB26D2264CD54D224A6CF38E321E9F772A5EA2544
+            809881A7E36BA8FFC38820BE4FECCD66F35FFA188BA915238280D782D4EB7563
+            11C054C8F25A109311C08820A692268B704B10F0DA43C02D417C9FD45D0C59BE
+            0BE2D6A40E5E0B6272C0990A59D755F224A68F3827484CF2642493B504B70451
+            903C7919B6F0FC998B7388B72B2D06DA067DD3F22B10F3302608782948A3D130
+            DAAF2048464CFF2E98C990E5E5C7274992B8E921BECE21E0A620BE66EBA6075A
+            9843B2E3AC20BE7E04EFA6206A52574994983EE1EC2A4B3DA648FBFF4FDC695C
+            9E438C27517702D38B95204806FAFDFE764DE36FF4CEC3A820A693A8B26969FE
+            8DDE79181504BC5A699591EC1A15A48C0E9489F38280578280718F0F8264A08C
+            2F0086392403657C3E173C241B6E0BE2DBA40ECE0BD2EFF57A5D317DC0F9495D
+            FD188D4F5EE2B687287C095B78FA805556EEC7E12D4A198278B1D26AB55AA5F4
+            C3B820E0858794F54F48419005292BF45A15B248BC6E7BC03D1CF600FABDEDF7
+            DA7BC97AFEDD542F640D87C3A793247946D52957D94EA507F6613C1EBF82888F
+            A93A6D8FB0BD951ED887388E4FD2E64155A77C00FBF5F4C06278E1E9AAE32F70
+            D316A6DBED4EA6D3E905F52857D97520B41FD07E6D30186CC8AE03A17D97F6E7
+            29B665D742D08FF7A44B4631FE30613AF20861EB0F319D054DDE6462FF4E4C63
+            94318784493D036508B245523514D359F0103F045194955419C69B55964AAAAE
+            48D549F0F01E9EAEE3A9A087528A2074664DAA4E1245D11A7D48C4344A591EF2
+            991A65623A05973DE3FACF88699CB23CE452A7D3799BCE19FBDF3C5370DD1F71
+            FDBF88E917E424CFAA248EA42C49B32D8B994C26BF73BD5932792D184F0CE741
+            7FEFA138BA63D907D7A79E547DE0A3C0CDB0B4F41FF8EBE492BD6A08FE000000
+            0049454E44AE426082}
+          FileName = 'C:\Users\mateus.rocha\Desktop\trash_filled_100px.png'
+        end>
+      Align = Client
+      HitTest = False
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 45.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object TLayout
+    StyleName = 'blueunreadbutton'
+    Align = Center
+    Size.Width = 55.000000000000000000
+    Size.Height = 70.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object TRectangle
+      StyleName = 'background'
+      Align = Contents
+      Fill.Color = xFF3F6FA6
+      HitTest = False
+      Size.Width = 55.000000000000000000
+      Size.Height = 70.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 55.000000000000000000
+        Size.Height = 70.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Thickness = 1.200000047683716000
+        Stroke.Dash = Dash
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 0.300000011920929000
+          Trigger = 'IsMouseOver=true'
+        end
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.300000011920929000
+          StopValue = 0.000000000000000000
+          Trigger = 'IsMouseOver=false'
+        end
+      end
+      object TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 55.000000000000000000
+        Size.Height = 70.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Thickness = 1.200000047683716000
+        Stroke.Dash = Dash
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.300000011920929000
+          StopValue = 0.000000000000000000
+          Trigger = 'IsPressed=false'
+        end
+        object TFloatAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 0.300000011920929000
+          Trigger = 'IsPressed=true'
+        end
+      end
+    end
+    object TText
+      StyleName = 'text'
+      Align = Bottom
+      HitTest = False
+      Position.Y = 45.000000000000000000
+      Size.Width = 55.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Text'
+      TextSettings.Font.Family = '(Default)'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+    end
+    object TImage
+      StyleName = 'trashicon'
+      MultiResBitmap.Height = 100
+      MultiResBitmap.Width = 100
+      MultiResBitmap = <
+        item
+          Width = 100
+          Height = 100
+          PNG = {
+            89504E470D0A1A0A0000000D494844520000006400000064080600000070E295
+            54000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            065149444154785EED9BCF6B5C5514C7931415157F2CD46EFCB550A9082A0A75
+            A14DD4DAAAD880ADA86D1776D38015774DAD7F824674974A05DD182BB455A95D
+            B444686B2ABAA9605D58172E0A55102C08958AF823F1F3CD3D539ABEFB66DECC
+            7B33735F723E70B8335FCEBBF7FC985F393319701CC7711CC7711CC7711CC771
+            1CC7711CC7711CC7711C27CAA0ADB9CCCDCDADC0A60707076F31C9E9006A7886
+            1AAEC57E3429CA90ADB968036C251B7E6F92D326AA9D6AD8AA19A26543041BFD
+            8A3DCAC6DF98E414443553ED5443939A52A821820D7F6759C3015F04C56905B5
+            9A665963B52BC48286CCCECEAEB49B51868686CEB3F9B31C74D82427076A7488
+            5AAD57CD4C8A42CD1FB29BF32C68081B8CE330C966B9CF1C7CFEC4D6E1F38149
+            CE25A836D46854B53229836A4CAD77E1B3DDA4793285C7E1159C3FC42E332903
+            3EFF615BF179C724C7504D541BD5C8A40CAAAD6A8CCF36932E107D26E0B8990B
+            3EA583579A94019F399E8EDBF17BDDA4258F6AA19AA8362665504D555BD5D8A4
+            05347B695A871D62836B4D8A42006F72C0ABD8AC494B0EE5AE1AA8162645512D
+            5553D5D6A40CB90D3146B8F8081BDD68F7A310C824CB1682FA37284B07CBF925
+            AB412EAAA16AC9CD91A0C469D510F120F6251BDE1CEEC621A029960D04F85750
+            163F96EB0672FF282871A89DA61C33986AD994220DD1CBD7DD2C5FB1F19D4189
+            436007F17D9A40FF3069D1428EE794AB7236298AD5EC38BE2B82D29C420D116C
+            781BCB710EB82F2871F03BC6F238019F0DCAE2C3725B6DB9E682DFFD2C6A866A
+            5788C20D116CBC9CE5184D7938287178D49C601921A05F82B278B09C862DC75C
+            54237C8F5ACD0AD3564304075CCF32CD814F06250E01FF80EF2304F59349B547
+            B92827723B6552146AF3148B26E4AA555BB4DD10C14157B17C4E80CF07250E7E
+            A7B155F8D57E52AC1C948B7232298AD5E480D5A86D3A6A88E0C0CB39FC631E0D
+            5B4D8A825FED27C58A5D39281793A2508B31D544B531A96D3A6E88E0E0652CEF
+            11C87850E2E0D798146BFA592B2CE696135B6AB08365B7D5A4634A3544108078
+            8BC0DF30290AAFBB9A148FE2F78949C943ACFB15B36237298A72C76F428530A9
+            634A37E42276F228D94570B97B12EFDFD88BF8243F29568CC4BA51319B9441B9
+            2A676EEE0C4A79AA6C880ABE8D206B3F2926B6B715A36235298372C4A694B349
+            955069430401D67A52AC98886D5C319A9441B9E1F7193E9B4CAA8CCA1B2208B4
+            769362C5A058149349512CA7C3E4F74C50AAA52B0D316A3329E6EC7F580A4F6C
+            B161932AA79B0D119A6ECE9048B293623BF33962A86C625B866E37442F5F9A72
+            263929E6ACA213DBBB580A4F6CCBD0F5860812999F1453004D3F73C1AF679362
+            3BA3E8C476C672E83A3D698820A1E5247794475B9149F130BE5D9B14B3F7CF2C
+            5D9BD896A1670D1124D698146B1A9A0B853A856F5726C5DA93BD57E90C93A258
+            8C1D4D6CCBD0D3860812D414F40085E9F9A498BD4E6A4FED6D52149AF1024BC7
+            13DB32F4BC2182441B93E23193A2E057D9A4983DBE66AFC7B4A749512CA63D8A
+            3128BDA52F0D1124ACA9E86E0AA029692EF8959E14DBB5FA57809E4C6CCBD0B7
+            860812171314ACE8A478BF4985D135BA567B9814453128160564525FE86B432E
+            A2E8A478233E8527C5F8BEAF6B74AD4919742667BFCBCDCA26B66548A5212AB8
+            26C553582593627C34B11DD3352665D0593A139F974DEA3BC9344450984D1468
+            0F96FB868ACF1C368E8F2CF3EB72B4F3987E5FBB43BE2667E05971057EFABAB5
+            F2896D1916BC5E12E05E96A61F477B0171E84D58BF086CF5BF1537B18C62F7CE
+            0B030327B1835CF75BB81B87EBAE66D10F9ED706A5AFEC230E7DCCCEA28660A9
+            7082C2359D147782F6C4BEB53352404F820B24F59275098D497165FFFD6B7B69
+            2EF54050D223E586E8FD42D3D5233C8A6E0F4AE7D81EFA2EA3EB13DB3224DD10
+            4101EF60F98E47F7FAA0B40FD7EABB168D4DB457D224DF10E33A6C1F85D557BE
+            3704A935F8EBFD62829B7B6946D3AF9353A12E0DD1336519F61A0D394D9127B1
+            D5DCCEFCCD82A639D913F2E1AE0694FAF8DBB75148BB24F9B1B728C47B8EE50C
+            D6F898AB4F65B7D2806BC2DD5AB0E0636F6D9E21314844FFB3770FA6DFDDCA74
+            BB4ECDC850EB862C46BC2189E10D490C6F4862784312C31B9218DE90C4F08624
+            86372431BC2189E10D490C6F4862784312C31B9218DE10C7711CC7711CC7711C
+            C7711CC7711CC7711CC7711CC7716AC0C0C0FF92884BBC2BF6B3850000000049
+            454E44AE426082}
+          FileName = 'C:\Users\mateus.rocha\Downloads\icons8-new-post-filled-100.png'
+        end>
+      Align = Client
+      HitTest = False
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 45.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end
